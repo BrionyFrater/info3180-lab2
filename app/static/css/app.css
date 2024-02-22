@@ -1,3 +1,82 @@
 body {
     padding-top: 5rem;
 }
+
+.profileCard{
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+    /* background-image: linear-gradient(to right top, #000000, #101010, #191919, #232323, #2c2c2c); */
+    display: flex;
+    max-width: 400px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    background-image: url(/static/images/doodle.png);
+    background-size: cover;
+    overflow: auto;
+}
+
+
+.avatar{
+    border-radius: 100%;
+    box-shadow: 0 0 0px 4px rgb(79, 238, 222, 0.5);
+}
+
+.genInfo > *{
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.genInfo h2{
+    
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.bioCard{
+    background-color: white;
+    color: rgb(82, 81, 81);
+    padding: 20px;
+    margin: -20px;
+    position: relative;
+}
+
+.metrics{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(36, 36, 36);
+}
+
+.metrics > div{
+    text-align: center;
+}
+
+.metrics h5{
+    font-weight: 700;
+}
+
+.btnCtn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btnCtn button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25%;
+    background-color: rgb(70, 238, 207);
+    transition: all 0.2s ease-in-out;
+}
+
+.btnCtn button:hover{
+    transition: all 0.2s ease-in-out;
+    background-color: rgb(218, 255, 36);
+    
+}
+
